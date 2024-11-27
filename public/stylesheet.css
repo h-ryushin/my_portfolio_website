@@ -1,0 +1,104 @@
+/* ここ共通 */
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@font-face {
+    font-family: reitam;
+    src: url("../webfonts/Reitam Regular.otf") format("opentype")
+}
+body{
+    background-color: #ECECE6;
+}
+
+/* ここから色々 */
+.header {
+    height: 130px;
+    width: 100%;
+    position: fixed; /* 画面上に固定 */
+    top: 0;           /* 上端に配置 */
+    left: 0; 
+    z-index: 1000;    /* 他の要素よりも前面に表示 */
+}
+
+.header div {
+    display: flex;
+    width: 85%;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header li {
+    padding-left: 20px;
+    color: #a28d69;
+    letter-spacing: .1em;
+    font-size: 1.4vw;
+}
+
+.top-wrapper {
+    height: 100vh;
+    background-image: url("../src/top.png");
+    background-size: cover;
+}
+
+.top-wrapper h1 {
+    text-align: center;
+    padding-top: 350px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: reitam;
+    font-size: 36px;
+}
+
+.top-wrapper p {
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-family: reitam;
+}
+
+
+
+
+.project-card {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+}
+
+.project-card img {
+    background-size: cover;
+    width: 400px;
+    height: 225px;
+}
+
+
+.footer {
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    padding-top: 150px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
