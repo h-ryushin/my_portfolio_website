@@ -1,4 +1,6 @@
 /* ここ共通 */
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500,700,800,900");
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@ a {
     font-family: reitam;
     src: url("../webfonts/Reitam Regular.otf") format("opentype")
 }
+
 body{
     background-color: #ECECE6;
 }
@@ -78,31 +81,47 @@ body{
 
 
 .project-card {
-    width: 300px;
-    height: 400px;
+    width: 45%;
+    height: 600px;
 }
 
 .project-card img {
-    background-size: cover;
-    width: 400px;
-    height: 225px;
+    width: 100%;
+    height: 100%;
 }
 .project-list .project-list-wrapper{
     width: 80%;
     display: flex;
+    justify-content: space-between;
     margin: auto;
+}
+.project-card h5{
+    font-family: 'NotoSans SemiBold', sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: .05em;
+    color: #a28d69;
+}
+.project-card p{
+    color: #000;
+    font-size: 1vw;
+    padding-top: 1vw;
+    letter-spacing: .05em;
 }
 
 
 .footer {
-    height: 350px;
+    height: 200px;
     width: 100%;
     background-color: black;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .footer p {
     color: white;
     text-align: center;
-    font-size: 30px;
+    color: #e5e5de;
+    font-size: 1.3vw;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    letter-spacing: .5em;
 }

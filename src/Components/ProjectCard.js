@@ -4,13 +4,12 @@ import soundjump from "../img/soundjump.png";
 function ProjectCard() {
   // プロジェクト情報の配列
   const projects = [
-    { name: "Unity Game", tool: "Unity, C#", image: soundjump, link: 'https://unityroom.com/games/soundjump' },
+    { name: "SoundJump", tool: "Unity, C#", image: soundjump, link: 'https://unityroom.com/games/soundjump' },
     { name: "React App", tool: "React, JavaScript", image: "react.png", link: 'https://reactjs.org/' },
   ];
 
   return (
     <div className="project-list">
-      {/* projects 配列を map で繰り返しレンダリング */}
       <div className='project-list-wrapper'>
       {projects.map((project, index) => (
         <div key={index} className="project-card">
