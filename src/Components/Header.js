@@ -1,11 +1,11 @@
 import React from 'react'
-import HeaderImage from "./top.png"
+import HeaderImage from "../img/top.png"
 function Header() {
     return (
         <div className='header'>
             <div>
                 <a href='../public/index.html'>
-                    <img src={HeaderImage} />
+                    <img src={HeaderImage} alt='header-image' />
                 </a>
                 <ul>
                     <li>WORKS</li>

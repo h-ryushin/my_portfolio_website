@@ -78,8 +78,7 @@ body{
 
 
 .project-card {
-    width: 80%;
-    margin: auto;
+    width: 300px;
     height: 400px;
 }
 
@@ -87,6 +86,11 @@ body{
     background-size: cover;
     width: 400px;
     height: 225px;
+}
+.project-list .project-list-wrapper{
+    width: 80%;
+    display: flex;
+    margin: auto;
 }
 
 
