@@ -17,6 +17,10 @@ a {
     font-family: reitam;
     src: url("../webfonts/Reitam Regular.otf") format("opentype")
 }
+html{
+    font-family: "reitam", 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
 
 body{
     background-color: #ECECE6;
@@ -28,28 +32,30 @@ body{
     width: 100%;
     position: fixed; /* 画面上に固定 */
     top: 0;           /* 上端に配置 */
-    left: 0; 
+    left: 0;
     z-index: 1000;    /* 他の要素よりも前面に表示 */
 }
 
 .header div {
     display: flex;
-    width: 85%;
-    margin-left: 10%;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
     justify-content: space-between;
 }
 
 .header img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .header ul {
     display: flex;
+    padding-top: 20px;
 }
 
 .header li {
-    padding-left: 20px;
+    padding-left: 30px;
     color: #a28d69;
     letter-spacing: .1em;
     font-size: 1.4vw;
@@ -75,6 +81,7 @@ body{
     padding-top: 20px;
     letter-spacing: 2px;
     font-family: reitam;
+    font-weight: lighter;
 }
 
 
