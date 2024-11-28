@@ -1,28 +1,33 @@
 /* ここ共通 */
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
 @import url("https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500,700,800,900");
+
 * {
     margin: 0;
     padding: 0;
 }
+
 ul,
 ol {
     list-style: none;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 @font-face {
     font-family: reitam;
     src: url("../webfonts/Reitam Regular.otf") format("opentype")
 }
-html{
+
+html {
     font-family: "reitam", 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 
-body{
+body {
     background-color: #ECECE6;
 }
 
@@ -30,10 +35,13 @@ body{
 .header {
     height: 130px;
     width: 100%;
-    position: fixed; /* 画面上に固定 */
-    top: 0;           /* 上端に配置 */
+    position: fixed;
+    /* 画面上に固定 */
+    top: 0;
+    /* 上端に配置 */
     left: 0;
-    z-index: 1000;    /* 他の要素よりも前面に表示 */
+    z-index: 1000;
+    /* 他の要素よりも前面に表示 */
 }
 
 .header div {
@@ -96,19 +104,22 @@ body{
     width: 100%;
     height: 100%;
 }
-.project-list .project-list-wrapper{
+
+.project-list .project-list-wrapper {
     width: 80%;
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
-.project-card h5{
+
+.project-card h5 {
     font-family: 'NotoSans SemiBold', sans-serif;
     font-size: 1.3vw;
     letter-spacing: .05em;
     color: #a28d69;
 }
-.project-card p{
+
+.project-card p {
     color: #000;
     font-size: 1vw;
     padding-top: 1vw;
@@ -138,43 +149,60 @@ body{
 
 
 /* about */
-.about-wrapper{
+.about-wrapper {
     width: 70%;
     margin: auto;
 }
-.about-wrapper p{
+
+.about-wrapper p {
     line-height: 2.0rem;
 }
-.about-wrapper h2{
+
+.about-wrapper h2 {
     font-size: 40px;
 }
-.about-wrapper h4{
+
+.about-wrapper h4 {
     font-size: 20px;
+    margin-bottom: 20px;
 }
-.about-wrapper .about-my-name{
+
+.about-wrapper .about-my-name {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.about-my-name p{
-    /* border-left: #000;
-    border-color: #000;
-    border-width: 3px; */
-    /* これできてない */
+
+.about-my-name p {
+    border-left: 1.5px solid #9c9c9b;
+    align-items: center;
+    padding-left: 10px;
+    height: 80%;
+    color: #9c9c9b;
+    font-size: 20px;
 }
-.about-wrapper h5{
+
+.about-wrapper h5 {
     margin-top: 40px;
     margin-bottom: 10px;
     font-size: 25px;
 }
-.about-wrapper .my-efforts h6{
+
+.about-wrapper .my-efforts h6 {
     font-size: 20px;
+    margin-bottom: 8px;
 }
-.about-wrapper .about-empty{
+
+.about-wrapper .about-empty {
     height: 30px;
 }
-.about-wrapper li{
-    /* width: 700px;
-    margin: auto; */
+.about-wrapper li {
     line-height: 2rem;
 }
+
+.contact-container{
+    width: 80%;
+    margin: auto;
+}
+
+
