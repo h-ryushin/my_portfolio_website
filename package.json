@@ -1,11 +1,13 @@
 {
+  "homepage": "https://h-ryushin.github.io/my_portfolio_website/",
   "name": "portfolio-site-react",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.2.0",
     "react": "~18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1",
@@ -15,9 +17,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,9 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
-  },
-  "homepage": "https://h-ryushin.github.io/my_portfolio_website"
+  }
 }
