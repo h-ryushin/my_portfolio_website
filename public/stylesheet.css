@@ -165,10 +165,16 @@ body{
 .about-wrapper h5{
     margin-top: 40px;
     margin-bottom: 10px;
+    font-size: 25px;
 }
 .about-wrapper .my-efforts h6{
     font-size: 20px;
 }
 .about-wrapper .about-empty{
     height: 30px;
+}
+.about-wrapper li{
+    /* width: 700px;
+    margin: auto; */
+    line-height: 2rem;
 }

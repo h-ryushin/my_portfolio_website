@@ -4,7 +4,7 @@ function Header() {
     return (
         <div className='header'>
             <div>
-                <a href='../public/index.html'>
+                <a href='/'>
                     <img src={HeaderImage} alt='header-image' />
                 </a>
                 <ul>

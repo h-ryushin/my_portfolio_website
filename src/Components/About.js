@@ -46,6 +46,14 @@ function About() {
       `,
         },
     ];
+    const educationHistory = [
+        { year: '2015年4月', description: '愛知教育大学附属岡崎中学　入学' },
+        { year: '2018年3月', description: '愛知教育大学附属岡崎中学　卒業' },
+        { year: '2018年4月', description: '私立名城大学附属高校　入学' },
+        { year: '2021年3月', description: '私立名城大学附属高校　卒業' },
+        { year: '2022年4月', description: '名城大学情報工学部情報工学科　入学' },
+        { year: '2026年3月', description: '名城大学情報工学部情報工学科　卒業予定' },
+    ];
 
     return (
         <div className='about-wrapper'>
@@ -55,10 +63,10 @@ function About() {
                 <p>STUDENT</p>
             </div>
             <p>
-            　私は中学時代から自分の興味に基づいたプロジェクトに取り組み、大学ではWeb制作やプログラミングに力を入れてきました。中学では「ライフワーク」プロジェクト
-            で淡水魚に関する取材やインタビューを行い、レポートをまとめる経験を通じて、自らテーマを追求する姿勢を養いました。
-            <br></br>高校では生物と物理に興味を持ち、工学部進学を決意しました。大学2年の後期からは独学でHTML/CSS/JavaScriptを学び、Webサイトを制作するスキルを身につけ、インターンシップでは実務経験を積んでいます。
-            <br></br>フルリモートの環境でクライアントニーズに応じたWebサイトの制作や、UI/UXを意識したデザインに取り組んできました。これまでのプロジェクトやWeb制作で培った探求心と課題解決能力が私の強みです。
+                私は中学時代から自分の興味に基づいたプロジェクトに取り組み、大学ではWeb制作やプログラミングに力を入れてきました。中学では「ライフワーク」プロジェクト
+                で淡水魚に関する取材やインタビューを行い、レポートをまとめる経験を通じて、自らテーマを追求する姿勢を養いました。
+                <br></br>高校では生物と物理に興味を持ち、工学部進学を決意しました。大学2年の後期からは独学でHTML/CSS/JavaScriptを学び、Webサイトを制作するスキルを身につけ、インターンシップでは実務経験を積んでいます。
+                <br></br>フルリモートの環境でクライアントニーズに応じたWebサイトの制作や、UI/UXを意識したデザインに取り組んできました。これまでのプロジェクトやWeb制作で培った探求心と課題解決能力が私の強みです。
             </p>
             <h5>これまでの主な取り組み</h5>
             <div className='my-efforts'>
@@ -70,8 +78,17 @@ function About() {
                         <p>{exp.description}</p>
                     </div>
                 ))}
-                <div className='about-empty'></div>
             </div>
+            <h5>スキル</h5>
+            <h5>学歴</h5>
+            <ul>
+                {educationHistory.map((entry, index) => (
+                    <li key={index}>
+                        <strong>{entry.year}</strong>　　　　　　　　{entry.description}
+                    </li>
+                ))}
+            </ul>
+            <div className='about-empty'></div>
         </div>
     );
 }
