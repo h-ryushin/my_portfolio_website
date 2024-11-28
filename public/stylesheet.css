@@ -132,3 +132,43 @@ body{
     font-weight: bold;
     letter-spacing: .5em;
 }
+
+
+
+
+
+/* about */
+.about-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.about-wrapper p{
+    line-height: 2.0rem;
+}
+.about-wrapper h2{
+    font-size: 40px;
+}
+.about-wrapper h4{
+    font-size: 20px;
+}
+.about-wrapper .about-my-name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.about-my-name p{
+    /* border-left: #000;
+    border-color: #000;
+    border-width: 3px; */
+    /* これできてない */
+}
+.about-wrapper h5{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.about-wrapper .my-efforts h6{
+    font-size: 20px;
+}
+.about-wrapper .about-empty{
+    height: 30px;
+}

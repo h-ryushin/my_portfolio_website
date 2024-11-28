@@ -6,7 +6,7 @@ function ProjectCard() {
   // プロジェクト情報の配列
   const projects = [
     { name: "SoundJump", tool: "Unity, C#", image: soundjump, link: 'https://unityroom.com/games/soundjump' },
-    { name: "RealBaseBall", tool: "Unity, C#", image: realbaseball, link: 'https://reactjs.org/' },
+    { name: "RealBaseBall", tool: "Unity, C#", image: realbaseball, link: 'https://unityroom.com/games/realbaseball_sappu' },
   ];
 
   return (

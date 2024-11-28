@@ -8,9 +8,9 @@ function Header() {
                     <img src={HeaderImage} alt='header-image' />
                 </a>
                 <ul>
-                    <li>WORKS</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
+                    <li><a href='/'>WORKS</a></li>
+                    <li><a href='/about'>ABOUT</a></li>
+                    <li><a href='/contact'>CONTACT</a></li>
                 </ul>
             </div>
         </div>
