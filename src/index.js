@@ -7,6 +7,10 @@ import Header from './Components/Header';
 import About from './Components/About';
 import SoundJump from './Components/SoundJump';
 import Contact from './Components/Contact';
+import about_top_image from '../src/img/about-top.png';
+import contact_top_image from "../src/img/contact-top.png";
+
+
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -18,13 +22,13 @@ root.render(
       <Routes>
         <Route path='/' element={
           <>
-            <Top />
+            <Top isTopPage={true} />
             <ProjectCard />
           </>
         } />
         <Route path='/about' element={
           <>
-            <Top />
+            <Top image={about_top_image} isTopPage={false} />
             <About />
           </>
         } />
@@ -36,7 +40,7 @@ root.render(
         } />
         <Route path='/contact' element={
           <>
-            <Top />
+            <Top image={contact_top_image} isTopPage={false} />
             <Contact/>
           </>
         } />

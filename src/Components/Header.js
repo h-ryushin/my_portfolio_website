@@ -1,11 +1,11 @@
 import React from 'react'
-import HeaderImage from "../img/top.png"
+import topImage from "../img/top.png";
 function Header() {
     return (
         <div className='header'>
             <div>
                 <a href='/'>
-                    <img src={HeaderImage} alt='header-image' />
+                    <img src= {topImage} alt='header-image' />
                 </a>
                 <ul>
                     <li><a href='/'>WORKS</a></li>
