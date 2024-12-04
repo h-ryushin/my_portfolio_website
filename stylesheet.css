@@ -68,8 +68,8 @@ body {
 
 .top-wrapper {
     height: 100vh;
-    background-image: url("../src/top.png");
-    background-size: cover;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 .top-wrapper h1 {
@@ -193,29 +193,34 @@ body {
 .about-wrapper .about-empty {
     height: 30px;
 }
+
 .about-wrapper li {
     line-height: 2rem;
 }
 
 
 
-.contact-container{
+.contact-container {
     width: 80%;
     margin: auto;
 }
-.contact-container h5{
+
+.contact-container h5 {
     font-size: 20px;
     margin-bottom: 20px;
 }
-.contact-container h2{
+
+.contact-container h2 {
     font-size: 50px;
     margin-bottom: 50px;
 }
+
 .form-group {
     display: block;
     margin-bottom: 40px;
 }
-.contact-container button{
+
+.contact-container button {
     width: 300px;
     height: 80px;
     display: block;
@@ -225,26 +230,32 @@ body {
     background-color: #a28d69;
     margin-top: 40px;
 }
-.contact-container .contact-empty{
+
+.contact-container .contact-empty {
     height: 50px;
 }
-#message{
+
+#message {
     height: 400px;
     width: 100%;
 }
-#message{
+
+#message {
     height: 400px;
     width: 100%;
 }
-textarea{
+
+textarea {
     border: none;
 }
-.contact-form label{
+
+.contact-form label {
     font-size: 25px;
     margin-bottom: 20px;
     display: block;
 }
-input{
+
+input {
     border: none;
     width: 100%;
     height: 200px;

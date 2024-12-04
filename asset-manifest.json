@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.js": "/my_portfolio_website/static/js/main.a31e473c.js",
-    "static/js/453.693b12c1.chunk.js": "/my_portfolio_website/static/js/453.693b12c1.chunk.js",
-    "static/media/soundjump.png": "/my_portfolio_website/static/media/soundjump.46e3d228a2895c2f6397.png",
-    "static/media/realbaseball.png": "/my_portfolio_website/static/media/realbaseball.f975aae3d1c4e156e4ef.png",
-    "static/media/top.png": "/my_portfolio_website/static/media/top.e4bb7ccad8e28c8386d3.png",
-    "index.html": "/my_portfolio_website/index.html",
-    "main.a31e473c.js.map": "/my_portfolio_website/static/js/main.a31e473c.js.map",
-    "453.693b12c1.chunk.js.map": "/my_portfolio_website/static/js/453.693b12c1.chunk.js.map"
+    "main.js": "/static/js/main.6188bbdc.js",
+    "static/js/453.693b12c1.chunk.js": "/static/js/453.693b12c1.chunk.js",
+    "static/media/contact-top.png": "/static/media/contact-top.15bf89b6bef931ea68d3.png",
+    "static/media/about-top.png": "/static/media/about-top.bc479177526ae21dcbe9.png",
+    "static/media/soundjump.png": "/static/media/soundjump.46e3d228a2895c2f6397.png",
+    "static/media/realbaseball.png": "/static/media/realbaseball.f975aae3d1c4e156e4ef.png",
+    "static/media/top.png": "/static/media/top.e4bb7ccad8e28c8386d3.png",
+    "index.html": "/index.html",
+    "main.6188bbdc.js.map": "/static/js/main.6188bbdc.js.map",
+    "453.693b12c1.chunk.js.map": "/static/js/453.693b12c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a31e473c.js"
+    "static/js/main.6188bbdc.js"
   ]
 }
