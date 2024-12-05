@@ -1,16 +1,17 @@
 import React from 'react'
 import topImage from "../img/top.png";
+import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div className='header'>
             <div>
-                <a href='/'>
-                    <img src= {topImage} alt='header-image' />
+                <a href='#/'>
+                    <img src={topImage} alt='header-image' />
                 </a>
                 <ul>
-                    <li><a href='/'>WORKS</a></li>
-                    <li><a href='/about'>ABOUT</a></li>
-                    <li><a href='/contact'>CONTACT</a></li>
+                    <li><Link to="/">WORKS</Link></li>
+                    <li><Link to="/about">ABOUT</Link></li>
+                    <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
             </div>
         </div>
@@ -18,5 +19,7 @@ function Header() {
 }
 
 export default Header
+
+
 
 
