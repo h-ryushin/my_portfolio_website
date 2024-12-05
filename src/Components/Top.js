@@ -13,7 +13,8 @@ function Top({ image, isTopPage }) {
       {isTopPage && (
         <>
           <h1>HIRANO RYUSHIN</h1>
-          <p>Welcome to my portfolio site, where I showcase my work, skills, and passion</p>
+          <p className='pc'>Welcome to my portfolio site, where I showcase my work, skills, and passion</p>
+          <p className='iphone'>Welcome to my portfolio site,<br/> where I showcase my work, skills,<br/> and passion</p>
         </>
       )}
     </div>
