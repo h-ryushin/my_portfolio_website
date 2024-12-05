@@ -1,7 +1,6 @@
 import React from 'react';
 
 function About() {
-    // 経歴データ
     const experiences = [
         {
             year: '2016年',
@@ -84,7 +83,6 @@ function About() {
                         <h6>
                             {exp.year}　{exp.title}
                         </h6>
-                        {/* <p>{exp.description}</p> */}
                         <p dangerouslySetInnerHTML={{ __html: exp.description }} />
                     </div>
                 ))}

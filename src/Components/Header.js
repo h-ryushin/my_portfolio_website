@@ -5,13 +5,13 @@ function Header() {
     return (
         <div className='header'>
             <div>
-                <a href='#/'>
+                <Link to="/my_portfolio_website/">
                     <img src={topImage} alt='header-image' />
-                </a>
+                </Link>
                 <ul>
-                    <li><Link to="/">WORKS</Link></li>
-                    <li><Link to="/about">ABOUT</Link></li>
-                    <li><Link to="/contact">CONTACT</Link></li>
+                    <li><Link to="/my_portfolio_website/">WORKS</Link></li>
+                    <li><Link to="/my_portfolio_website/about">ABOUT</Link></li>
+                    <li><Link to="/my_portfolio_website/contact">CONTACT</Link></li>
                 </ul>
             </div>
         </div>

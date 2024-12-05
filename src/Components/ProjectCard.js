@@ -3,7 +3,6 @@ import soundjump from "../img/soundjump.png";
 import realbaseball from "../img/realbaseball.png"
 
 function ProjectCard() {
-  // プロジェクト情報の配列
   const projects = [
     { name: "SoundJump", tool: "Unity, C#", image: soundjump, link: 'https://unityroom.com/games/soundjump' },
     { name: "RealBaseBall", tool: "Unity, C#", image: realbaseball, link: 'https://unityroom.com/games/realbaseball_sappu' },
@@ -19,9 +18,7 @@ function ProjectCard() {
               <img src={project.image} alt={`${project.name}の写真`} />
             </a>
           </div>
-          {/* プロジェクト名 */}
           <h5>{project.name}</h5>
-          {/* 使用ツール */}
           <p>{project.tool}</p>
         </div>
       ))}

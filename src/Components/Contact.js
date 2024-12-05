@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 
 function Contact() {
-    // フォームデータの状態管理
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: '',
     });
 
-    // 入力変更のハンドラー
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -17,12 +15,11 @@ function Contact() {
         });
     };
 
-    // フォーム送信時のハンドラー
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('送信されたデータ:', formData);
         alert('今回は見た目だけなので今は送れません');
-        setFormData({ name: '', email: '', message: '' }); // フォームリセット
+        setFormData({ name: '', email: '', message: '' });
     };
 
     return (
